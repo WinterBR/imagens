@@ -1,0 +1,100 @@
+* {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(157, 154, 199, 0.368);
+    display: flex;
+    color: rgb(27, 27, 27);
+    align-items: center;
+    justify-content: center ;
+    padding: 20px;
+    border: 16px solid rgba(203, 170, 236, 0.823);
+}
+
+header button {
+    margin-left: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+}
+
+form {
+    background-color: rgba(124, 239, 201, 0.141);  
+    border: 16px solid rgba(83, 101, 95, 0.241);
+    display: none;
+}
+
+form h2 {
+    margin-left: 20px;
+}
+
+form input {
+    padding: 8px;
+    margin-left: 20px;
+}
+
+form button {
+    padding: 8px;
+    margin-left: 20px;
+}
+
+#add {
+    background-color: green;
+    color: antiquewhite;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+#cancel {
+    background-color: red;
+    color: antiquewhite;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 200px;
+    overflow-y:hidden ;
+
+}
+
+ul li img {
+    width: 100%;
+}
+
+.overlay {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.699);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease 1s;
+}
+
+.overlay a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover .overlay {
+    opacity: 1;
+}

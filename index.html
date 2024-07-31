@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <header>
+        <h1><strong>Galeria de Fotos</strong></h1>
+        <Button id="add">Nova IMG</Button>
+        <br/><br/><br/><br/>
+    </header>
+    <form>
+        <br/>
+        <h2>Inserir nova imagem</h2>
+        <br/>
+        <input id="endereço" type="url" required placeholder="insira o url da imagem">
+        <button id="add" type="submit">Adicionar</button>
+        <button id="cancel" type="reset">Cancelar</button>
+        <br/><br/>
+    </form>
+    <ul>
+        <li>
+            <img src="https://assets.primecreative.com.au/imagegen/cp/black/480/360/assets/TradeUniqueCars/TradeuniquecarsAUImport/69192/14485.jpg" alt="mercedes sauber C9">
+            <div class="overlay">
+                <a href="https://assets.primecreative.com.au/imagegen/cp/black/480/360/assets/TradeUniqueCars/TradeuniquecarsAUImport/69192/14485.jpg" target="_blank">ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="https://www.ultimatecarpage.com/images/car/521/Toyota-GT-One-47537.jpg" alt="toyota GT one">
+            <div class="overlay">
+                <a href="https://www.ultimatecarpage.com/images/car/521/Toyota-GT-One-47537.jpg" target="_blank">ver imagem em tamanho real</a>
+            </div>
+        </li>
+        <li>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nissan_R91CP_001.JPG/1200px-Nissan_R91CP_001.JPG" alt="nissan R92cp">
+            <div class="overlay">
+                <a href="" target="_blank">ver imagem em tamanho real</a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
